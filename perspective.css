@@ -1,0 +1,30 @@
+body{
+    margin:0px;
+    padding:0px;
+    width:100%;
+    height: 100svh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent
+{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width:250px;
+    height:250px;
+    background-color: brown;
+    transform-style: preserve-3d;
+    perspective: 100px;
+    perspective-origin: top left;
+}
+.child1
+{
+    position:absolute;
+    width:250px;
+    height:250px;
+    background-color:blue;
+    transform: rotateX(150deg);
+    margin-top: 116%;
+}

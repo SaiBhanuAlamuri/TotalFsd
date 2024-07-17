@@ -1,0 +1,32 @@
+body{
+    margin:0px;
+    padding:0px;
+    width:100%;
+    height:100svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parent
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:250px;
+    height: 250px;
+    background-color: rgb(140, 245, 12);
+}
+.parent::after
+{
+    content: "Bhanu";
+    width: 200px;
+    background-color: rgb(83, 16, 240);
+}
+
+
+/* .parent::before
+{
+    content: "Bhanu";
+    width: 200px;
+    background-color: rgb(228, 33, 7);
+} */

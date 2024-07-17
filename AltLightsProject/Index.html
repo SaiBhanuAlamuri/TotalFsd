@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="./Crosers.css">
+    <link rel="stylesheet" href="./Index.css" />
+    <title>Alt-Lights Website</title>
+  </head>
+  <body>
+    <div class="part1">
+      <div class="a">
+        <div class="a_first">
+          <i class="fa-brands fa-pied-piper"></i>
+         
+          <p>Lights</p>
+         
+        </div>
+        <div class="a_second">
+          <div class="option">
+            <p onmouseenter="fun()" onmouseleave="fun_a()">Home</p>
+             <!-- <p>Home</p> -->
+            <span></span>
+          </div>
+
+          <div class="option" >
+            <p onmouseenter="fun1()" onmouseleave="fun_1()">Product</p>
+            <span></span>
+          </div>
+
+          <div class="option">
+            <p onmouseenter="fun2()" onmouseleave="fun_2()">Brand</p>
+            <span></span>
+          </div>
+
+          <div class="option" >
+            <p onmouseenter="fun3()" onmouseleave="fun_3()">Inspiration</p>
+            <span></span>
+          </div>
+
+          <div class="option">
+            <p onmouseenter="fun4()" onmouseleave="fun_4()">Support</p>
+            <span></span>
+          </div>
+        </div>
+
+        <div class="a_three"> 
+          <i class="fa-solid fa-bars" onclick="funi('selectclass')"> </i> 
+             <div class="selectclass">
+            <div class="select1">Home</div>
+            <div class="select1">About Us</div>
+            <div class="select1">Product</div>
+            <div class="select1">Brand</div>
+            <div class="select1">Inspiration</div>
+            <div class="select1">Contact</div>
+            <div class="select1" onclick="funii('selectclass')">Close</div>
+          </div>
+       
+      </div>
+
+
+      </div>
+
+      <div class="b">
+        <div class="b1">Embrace The Transformation</div>
+        <div class="b2">Where the Lights Make The Change!</div>
+      </div>
+    </div>
+
+    <div class="part2">
+      <div class="pone">
+        <div class="p1">Explore</div>
+        <div class="p2">Our Diverse Range Of Products</div>
+      </div>
+      <div class="q">
+        <div class="q1">Residental</div>
+        <div class="q1">Commercial</div>
+        <div class="q1">Retail</div>
+        <div class="q1">Landscape</div>
+      </div>
+      <div class="r">Transform your outdoor space into a captivating oasis with our 
+        exquisite landscape lighting solutions.Let your garden shine and your pathways
+         glow with elegance under the stars.</div>
+      <!-- <div class="s">
+        <div class="s1">
+          <img src="./images/1.png">
+          <p>Bollard</p>
+        </div>
+
+
+        <div class="s2">
+          <img src="./images/2.jpg">
+          <p>Gate Light</p>
+        </div>
+
+
+        <div class="s3"><img src="./images/3.png"><p>WallLight</p></div>
+      </div> -->
+
+      <div class="parent">
+        <div class="child"><div class="innerchild"><img src="./images/bg1.jpg"></div></div>
+        <div class="child"><div class="innerchild"><img src="./AltLightsProject/images/2.jpg"></div></div>
+        <div class="child"><div class="innerchild"><img src="./AltLightsProject/images/3.png"></div></div>
+        <div class="child"><div class="innerchild"><img src="./AltLightsProject/images/4.png"></div></div>
+        <div class="child"><div class="innerchild"><img src="./images/img1.png"></div></div>
+        <div class="child"><div class="innerchild"><img src="./AltLightsProject/images/1.avif"></div></div>
+    </div>
+    </div>
+  </body>
+  <script src="./Index.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script>
+    $('.parent').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  speed:200,
+  dots:true,
+  centerMode:true,
+  prevArrow:`<button class="pre_button btn"><</button>`,
+  nextArrow:`<button class="nex_button btn">></button>`
+});
+
+</script>
+</html>

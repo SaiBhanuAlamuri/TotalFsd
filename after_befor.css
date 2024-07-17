@@ -1,0 +1,20 @@
+.m{
+    height: 500px;
+    width: 500px;
+    /* background-color: salmon; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child{
+    height: 300px;
+    width: 300px;
+    background-color: slategray;
+}
+.child::after{
+    content: "hhh";
+    background-color: rgb(10, 37, 244);
+}
+li::before{
+    content: "hey";
+}

@@ -1,0 +1,47 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    /* animation-name: myani;
+    animation-duration: 1s;
+    animation-iteration-count: infinite; */
+
+
+}
+.main div 
+{
+    width:100px;
+    height:100px;
+    margin-bottom: 10px;
+    background-color: red;
+    animation-name: myani;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.a {
+    animation-timing-function: ease;
+}
+.b {
+    animation-timing-function: ease-in;
+}
+.c {
+    animation-timing-function: ease-out;
+}
+.d {
+    animation-timing-function: ease-in-out;
+}
+@keyframes myani {
+    0%
+    {
+        transform:translateX(0px);
+
+    }
+    50%
+    {
+        transform: translateX(300px);
+    }
+    100%
+    {
+        transform:translateX(600px);
+
+    }
+}

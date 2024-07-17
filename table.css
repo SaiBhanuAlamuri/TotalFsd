@@ -1,0 +1,36 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100svh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    border: 2px solid black;
+    /* border-collapse: collapse; */
+    border-radius: 20px;
+    overflow: hidden;
+}
+th,td{
+    border-radius: 10px;
+}
+
+/* th{
+    background-color: blue;
+    color: white;
+} */
+
+tr:nth-child(1) {
+    background-color: rgb(133, 219, 21);
+    border-radius: 50px;
+    border:1px solid pink;
+}
+
+tr:nth-child(2)     {
+    background-color: red;
+    border-radius: 50px;
+    border:1px solid pink;
+}

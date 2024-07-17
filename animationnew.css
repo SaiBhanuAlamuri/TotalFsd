@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main
+{
+    width:500px;
+    height:500px;
+    background-color: brown;
+    animation-name: myani;
+    animation-duration:2s ;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+    /* animation-direction: reverse; */
+}
+@keyframes myani
+{
+    0%
+    {
+        background-color: black;
+    }
+    10%
+    {
+        background-color: rgb(0, 34, 255);
+    }
+    20%
+    {
+        background-color:rgb(51, 243, 17);
+
+    }
+    30%
+    {
+        background-color:violet;
+    }
+    40%
+    {
+        background-color: rgb(0, 34, 255);
+    }
+    50%
+    {
+        background-color:rgb(255, 238, 0);
+
+    }
+    60%
+    {
+        background-color:violet;
+    }
+    70%
+    {
+        background-color:rgb(214, 162, 16);
+    }
+    80%
+    {
+        background-color: rgb(255, 72, 0);
+    }
+    90%
+    {
+        background-color:rgb(51, 243, 17);
+
+    }
+    100%
+    {
+        background-color:violet;
+    }
+
+}

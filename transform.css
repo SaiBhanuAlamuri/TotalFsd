@@ -1,0 +1,110 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    /* display:flex;
+    justify-content:center;
+    align-items:center; */
+}
+
+
+.parent
+{
+   
+    width:700px;
+    height:600px;
+    display: flex;
+    background-color: rgb(72, 175, 151);
+    flex-direction:row;
+    
+    justify-content:space-around;
+    align-items: flex-start;
+    
+}
+.child1
+{
+    width:100px;
+    height:100px;
+    background-color: brown;
+    
+}
+.child2
+{
+    width:100px;
+    height:100px;
+    background-color: aqua;
+   
+}
+.child3
+{
+    width:100px;
+    height:100px;
+    background-color: rgb(255, 25, 0);
+    
+}
+.child4
+{
+    width:100px;
+    height:100px;
+    background-color: blueviolet;
+    
+}
+.child5
+{
+    width:100px;
+    height:100px;
+    background-color: rgb(226, 12, 226);
+}
+/* parent need to get the perspective:
+It is based on the parent we due changes
+*/
+
+
+
+
+/* 
+prespective:in px;
+small perspective:large spreading
+large :small spreading
+
+prespective and transform are anti proportional each other
+
+perspective origin:px;
+where the child need to start
+
+top -bootom-->x axis;
+left-right-->y axis
+
++ + --  ->Rotation Angle
+translate(x,y)
+
+
+--------------------------------
+
+animations
+@keyframe animationname
+{
+
+from
+{
+}
+
+
+to
+{
+}
+
+
+}
+
+style
+animation-name:;
+animation-duration:;
+animationdelay:;
+animation-fill-mode:;-->This can forward and backward
+animation-iteration-count:infite;
+animation-timing-function
+
+
+
+*/

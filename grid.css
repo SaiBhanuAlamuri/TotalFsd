@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display:grid;
+    grid-template-columns:1fr 2fr 1fr ;
+    grid-template-rows: 1fr 2fr 1fr;
+    gap: 2px;
+}
+.main div{
+    background-color: blueviolet;
+    border:1px solid black;
+}

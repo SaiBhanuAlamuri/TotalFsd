@@ -1,0 +1,61 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+.main
+{
+    width:500px;
+    height:500px;
+    background-color: blue;
+    perspective: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.flipmain
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100px;
+    height:100px;
+    transform-style: preserve-3d;
+    transition: all 2s;
+    background-color: #fff;
+    /* transform: rotateY(0deg); */
+}
+.front
+{
+   
+    justify-content: center;
+    align-items: center;
+    /* width:fit-content;
+    height:fit-content; */
+    width:80%;
+    height:80%;
+    background-color: red;
+    backface-visibility: hidden;
+   
+
+}
+.back
+{
+    
+    justify-content: center;
+    align-items: center;
+    /* width:fit-content;
+    height:fit-content; */
+    width:80%;
+    height:80%;
+    background-color: rgb(240, 9, 197);
+    backface-visibility:hidden;
+    transform: rotateY(180deg);
+   
+
+}
+/* .main:hover .flipmain
+{
+    transform: rotateY(180deg);
+} */

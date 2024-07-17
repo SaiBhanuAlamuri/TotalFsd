@@ -1,0 +1,67 @@
+// configuration (git installed on the device for the first time)
+
+press win+R type CMD and press enter to open command promt, after that run these command
+
+(command)	git config --global user.email "enter your email which is linked with your GitHub account"
+
+(command)	git config --global user.name "enter your user name"
+
+(command)	git config --list //To check the username and email are configured properly or not
+
+
+
+//creating a new repository and adding files to it
+
+** open your GitHub account in browser and create a new repository **
+
+go to your project folder and run command promt (CMD)
+
+(command)	git init
+
+(command)	git add .
+
+(command)	git commit -m "your commit message"
+
+(command)	git branch -M main
+
+(command)	git remote add origin your-git-remote-link
+
+(command)	git push -u origin main
+
+
+
+// Updating your changes in git
+
+if you made any changes in your files after pushing files to git, to update those changes run these commands
+
+(command)	git add .
+
+(command)	git commit -m "your commit message"
+
+(command)	git push
+
+
+
+//To work with team and to mearge your code in github
+
+team leader has to create a repository and add remaining teammates to repository as collabrators
+
+< Warning...! every team leader sholud add your team members as collabrators to the project repository >
+
+team leader has to create initial project files and has to push them to git repo
+  
+every team member has to clone the repository for that every team memeber has to create a empty folder and open the command promt and run this command
+
+(command)	git clone your-project-repository-link (which is shared by your team leader)
+
+every team member has to work on their respective block in the project files
+
+after complistion of project every one has to push their code to git, for that run the following commands
+
+(command)	git add .
+
+(command)	git commit -m "your commit message"
+
+(command)	git pull --no-edit  //you need to pull the changes updated by the other team menbers
+
+(command)	git push 

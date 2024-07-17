@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizontal Alignment</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center;    /* Center vertically */
+            height: 100vh;          /* Full viewport height */
+            margin: 0;              /* Remove default margin */
+            background-color: #f0f0f0; /* Light background color */
+        }
+        .container {
+            display: flex;
+            flex-direction: row;    /* Arrange children in a row */
+            gap: 20px;              /* Space between children */
+            padding: 20px;
+            background-color: #fff; /* White background */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            border-radius: 10px;    /* Rounded corners */
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: #007BFF; /* Primary color */
+            display: flex;
+            justify-content: center; /* Center content horizontally */
+            align-items: center;    /* Center content vertically */
+            color: #fff;            /* White text */
+            font-size: 1.5em;
+            border-radius: 10px;    /* Rounded corners */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+    </div>
+</body>
+</html>

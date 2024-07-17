@@ -1,0 +1,38 @@
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="./Crosers.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="parent">
+        <div class="child"><div class="innerchild"><img src="./images/bg1.jpg"></div></div>
+        <div class="child"><div class="innerchild"><img src="./AltLightsProject/images/2.jpg"></div></div>
+        <div class="child"><div class="innerchild"><img src="./AltLightsProject/images/3.png"></div></div>
+        <div class="child"><div class="innerchild"><img src="./AltLightsProject/images/4.png"></div></div>
+        <div class="child"><div class="innerchild"><img src="./images/img1.png"></div></div>
+        <div class="child"><div class="innerchild"><img src="./AltLightsProject/images/1.avif"></div></div>
+    </div>
+    
+</body>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script>
+    $('.parent').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  speed:200,
+  dots:true,
+  centerMode:true,
+  prevArrow:`<button class="pre_button btn"><</button>`,
+  nextArrow:`<button class="nex_button btn">></button>`
+});
+
+</script>
+</html>

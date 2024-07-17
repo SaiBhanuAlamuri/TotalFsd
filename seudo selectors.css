@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+}
+
+.p{
+    height: 100svh;
+    width: 100%;
+    background-color: blue;
+    /* margin-top: 20px;
+    padding-top: 50px; */
+}
+
+.c{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin-bottom: 10px;
+}
+
+.c:nth-child(1){
+    background-color: green;
+   margin-top: 150px;
+}
+
+.c:nth-child(2){
+    background-color: pink;
+    width: 100px;
+}
+
+.c:nth-last-child(2){
+    background-color: gold;
+}
+
+.sp{
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+
+.sc{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    margin-top: 20px;
+    padding-top: 20px;
+}
